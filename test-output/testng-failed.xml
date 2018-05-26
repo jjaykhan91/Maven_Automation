@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Regression Firefox Test(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="SuiteTest.ParallelTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+          <include name="testScenario"/>
+        </methods>
+      </class> <!-- SuiteTest.ParallelTesting -->
+    </classes>
+  </test> <!-- Regression Firefox Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

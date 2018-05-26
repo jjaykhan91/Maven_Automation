@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="tests">
+    <test name="Regression Test">
+        <classes>
+            <class name="SuiteTest.Express_Test"/>
+            <class name="SuiteTest.Action7_USPS"/>
+        </classes>
+    </test>
+</suite>
+
