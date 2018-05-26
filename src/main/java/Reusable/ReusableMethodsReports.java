@@ -59,7 +59,7 @@ public class ReusableMethodsReports {
                 logger.log(LogStatus.FAIL, "Unable to click on element" + elementName);
                 getScreenshot(driver,logger);
 
-            }////
+            }////////////////jghfhdjyfbf
     }//end of click method
 
 
